@@ -1,18 +1,41 @@
-<html><body onload="document.forms[0].submit()">
-<form action="https://chsdc-ckf03.stjohns.k12.fl.us/cgi-bin/blockpage/blockpage.cgi" method="GET">
-<input type="Hidden" name="URL" value="www.youtube.com/watch">
-<input type="Hidden" name="CAT" value="Web 2.0 Site Control --> (YouTube)">
-<input type="Hidden" name="CATNO" value="47">
-<input type="Hidden" name="ACC" value="s531981/stjohns.k12.fl">
-<input type="Hidden" name="WHY" value="Policy=high_student; AD Group=high school students">
-<input type="Hidden" name="MOD" value="2">
-<input type="Hidden" name="APP" value="chatgpt">
-<input type="Hidden" name="ISO" value="App Permanently Blocked">
-<input type="Hidden" name="IPA" value="10.252.46.12">
-<input type="Hidden" name="RAW" value="https://www.youtube.com/watch?v=OBDJgW-TJKc">
-<input type="Hidden" name="AUTH0" value=",Web 2.0 Site Control --> (YouTube)">
-<input type="Hidden" name="PGE" value="https://chsdc-ckf03.stjohns.k12.fl.us/cgi-bin/blockpage/blockpage.cgi">
-<input type="Hidden" name="STR" value="null,null,null,null,null">
-<input type="Hidden" name="SRV" value="null">
-<input type="Hidden" name="AUTH1" value=",www.youtube.com/watch?v=OBDJgW-TJKc,Web 2.0 Site Control --> (YouTube)">
-</form></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Embed Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            /* Optional: Add a subtle shadow and centering adjustments */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <!-- Replace 'VIDEO_ID' with the actual ID of your desired YouTube video -->
+        <iframe 
+            width="560" 
+            height="315" 
+            src="www.youtube.com" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
+
